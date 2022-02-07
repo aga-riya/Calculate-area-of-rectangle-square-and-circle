@@ -1,0 +1,42 @@
+a)RECTANGLE
+
+struct Size { 
+var length: Int
+var breadth: Int
+func area() ->Int {length*breadth}
+} 
+var sizeOfRectangle = Size(length: 10, breadth: 30) 
+let area = sizeOfRectangle.area()
+print (area)
+
+
+
+b)SQUARE
+
+struct Size {
+    var side: Int 
+  
+    func area() -> Int
+    {
+        side*side
+    }
+}
+var sizeOfSquare = Size(side:14)
+let area = sizeOfSquare.area()
+print (area)
+
+
+
+c)CIRCLE
+
+struct Size {
+    var radius: Double
+    var pi:Double
+    func area() -> Double
+    {
+        pi*radius*radius
+    }
+}
+var sizeOfCircle = Size(radius:16 ,pi:3.14)
+let area = sizeOfCircle.area()
+print (area)
